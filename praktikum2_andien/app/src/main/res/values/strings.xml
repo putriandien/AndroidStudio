@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">praktikum2_andien</string>
+    <string name="panjang">Panjang\n</string>
+    <string name="lebar">Lebar\n</string>
+    <string name="tinggi">Tinggi\n</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">Hasil</string>
+</resources>
