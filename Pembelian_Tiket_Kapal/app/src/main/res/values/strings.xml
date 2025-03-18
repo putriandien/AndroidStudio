@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pembelian_Tiket_Kapal</string>
+    <string name="tiket_kapal">TIKET KAPAL</string>
+    <string name="Login">Login</string>
+    <string name="belum_punya">
+        Belum punya akun? Register
+    </string>
+    <string name="book_your_v">
+        Book your voyage now !
+    </string>
+    <string name="Register">Register</string>
+    <string name="Search">Search Tiket</string>
+</resources>
