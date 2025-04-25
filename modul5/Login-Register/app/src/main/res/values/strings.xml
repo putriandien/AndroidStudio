@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login-Register</string>
+    <string name="selamat_datang_user">Selamat datang, User</string>
+    <string name="login">Login</string>
+    <string name="pindah_halaman">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
