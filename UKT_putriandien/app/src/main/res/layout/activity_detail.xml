@@ -1,0 +1,136 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Gambar Cover -->
+        <ImageView
+            android:id="@+id/imageViewCover"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="16dp" />
+
+        <!-- Konten Buku -->
+        <LinearLayout
+            android:id="@+id/layoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/tvID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID: "
+                android:textSize="18sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Judul Buku: "
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penulis: "
+                android:textSize="18sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ISBN: "
+                android:textSize="14sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvPublisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penerbit: "
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvPublishedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Terbit"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genre: "
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi buku: "
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bahasa: "
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvUploadBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diunggah oleh: "
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <!-- Tombol Edit -->
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#EC5C9B"/>
+
+        <!-- Tombol Delete -->
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="DELETE"
+            android:backgroundTint="#EC5C9B"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tvUpdateBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Book"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <!-- ISBN -->
+    <EditText
+        android:id="@+id/etIsbn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="ISBN"
+        app:layout_constraintTop_toBottomOf="@id/tvUpdateBook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Title -->
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Judul Buku"
+        app:layout_constraintTop_toBottomOf="@id/etIsbn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Author -->
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Penulis"
+        app:layout_constraintTop_toBottomOf="@id/etTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Publisher -->
+    <EditText
+        android:id="@+id/etPublisher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Penerbit"
+        app:layout_constraintTop_toBottomOf="@id/etAuthor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Tanggal Terbit -->
+    <EditText
+        android:id="@+id/etPublishedDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Terbit"
+        app:layout_constraintTop_toBottomOf="@id/etPublisher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Genre -->
+    <EditText
+        android:id="@+id/etGenre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Genre"
+        app:layout_constraintTop_toBottomOf="@id/etPublishedDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Language -->
+
+    <!-- Deskripsi -->
+    <EditText
+        android:id="@+id/etLanguage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Bahasa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etGenre" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi"
+        android:minLines="3"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/etLanguage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Tombol Update -->
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        app:layout_constraintTop_toBottomOf="@id/etDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#EC5C9B"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

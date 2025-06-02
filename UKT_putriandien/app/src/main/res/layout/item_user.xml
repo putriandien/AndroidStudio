@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!-- Gambar di kiri -->
+    <ImageView
+        android:id="@+id/imageViewCover"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="12dp" />
+
+    <!-- Teks di kanan -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvISBN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvPublished_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Published_date"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="14sp"
+            android:textColor="#666" />
+        <TextView
+            android:id="@+id/tvUpload_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload_by"
+            android:textSize="14sp"
+            android:textColor="#666" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UKT_putriandien</string>
+    <string name="pindah_halaman">Login</string>
+    <string name="register">Register</string>
+    <string name="selamat_datang_user">Hello, User!\n</string>
+    <string name="welcome">Welcome</string>
+    <string name="create">Create</string>
+</resources>
